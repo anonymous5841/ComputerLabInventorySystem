@@ -11,7 +11,7 @@ public class Computer {
 
 	public Computer(String computerNumber, String icdModel, int ramSize, int hddSize, boolean hasGPU) {
 		this.computerNumber = computerNumber;
-		IcdModel = icdModel;
+		this.IcdModel = icdModel;
 		this.ramSize = ramSize;
 		this.hddSize = hddSize;
 		this.hasGPU = hasGPU;
